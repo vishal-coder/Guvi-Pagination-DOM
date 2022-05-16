@@ -1,0 +1,50 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+#buttons {
+  width: 100%;
+}
+.container {
+  height: 100%;
+}
+
+.table-responsive {
+  text-align: center;
+  margin: auto auto;
+  width: auto;
+}
+
+#table {
+  width: 80%;
+  margin: auto auto;
+}
+
+#header {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+#title,
+#description {
+  margin: 20px auto;
+  text-align: center;
+  width: auto;
+}
+
+.pagination {
+  margin: 40px auto;
+  text-align: center;
+  width: auto !important;
+  cursor: pointer;
+}
+
+.page-link:focus {
+  box-shadow: none !important;
+}
+
+.active {
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
