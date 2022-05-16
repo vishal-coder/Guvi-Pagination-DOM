@@ -45,6 +45,10 @@ html {
   box-shadow: none !important;
 }
 
+.pagination > li a {
+  min-width: 3em;
+}
+
 .active {
   box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
 }
