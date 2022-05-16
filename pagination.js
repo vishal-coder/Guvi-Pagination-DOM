@@ -126,9 +126,9 @@ let table = createElement(
 let thead = createElement("thead", "class", "thead-dark");
 
 let tr_th = document.createElement("tr");
-let th1 = createElement("th", "scope", "col", null, null, "Id");
-let th2 = createElement("th", "scope", "col", null, null, "Name");
-let th3 = createElement("th", "scope", "col", null, null, "email");
+let th1 = createElement("th", "scope", "col", "style", "width:10%", "Id");
+let th2 = createElement("th", "scope", "col", "style", "width:45%", "Name");
+let th3 = createElement("th", "scope", "col", "style", "width:45%", "email");
 
 tr_th.append(th1, th2, th3);
 thead.append(tr_th);
